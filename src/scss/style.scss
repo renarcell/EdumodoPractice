@@ -1,0 +1,17 @@
+//libs
+@import "libs/bootstrap-reboot.min";
+
+@import "base/mixins";
+@import "base/vars";
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+@import "blocks/header";
